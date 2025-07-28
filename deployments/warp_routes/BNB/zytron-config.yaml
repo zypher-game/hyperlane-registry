@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x05b928A3ba62c0A92456B58a3A45f3030CEA65d0"
+    chainName: zytron
+    connections:
+      - token: ethereum|bsc|0x58D436D9fD7e4f2836a47b9082a4Caf095C154A0
+    decimals: 18
+    name: Zytron Wrapped BNB
+    standard: EvmHypSynthetic
+    symbol: zBNB
+  - addressOrDenom: "0x58D436D9fD7e4f2836a47b9082a4Caf095C154A0"
+    chainName: bsc
+    connections:
+      - token: ethereum|zytron|0x05b928A3ba62c0A92456B58a3A45f3030CEA65d0
+    decimals: 18
+    name: BNB
+    standard: EvmHypNative
+    symbol: BNB

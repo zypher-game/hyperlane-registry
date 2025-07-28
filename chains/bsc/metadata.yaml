@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
+  - apiKey: PC1BM25WVTXDJ72ZVS67DF563YCZR3JKA7
     apiUrl: https://api.etherscan.io/v2/api?chainid=56
     family: etherscan
     name: BscScan
@@ -11,8 +11,8 @@ blocks:
   reorgPeriod: finalized
 chainId: 56
 deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
+  name: Zypher Network
+  url: https://bridge.zypher.network
 displayName: Binance Smart Chain
 displayNameShort: Binance
 domainId: 56

@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://scanner.zypher.network/api/v2/
+    family: blockscout
+    name: Zytron Explorer
+    url: https://scanner.zypher.network/
+blocks:
+  confirmations: 1
+  estimateBlockTime: 2
+chainId: 9901
+deployer:
+  name: Zypher Network
+  url: https://bridge.zypher.network
+displayName: Zytron Mainnet
+domainId: 9901
+isTestnet: false
+name: zytron
+nativeToken:
+  decimals: 18
+  name: Ether
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.zypher.network
+technicalStack: other

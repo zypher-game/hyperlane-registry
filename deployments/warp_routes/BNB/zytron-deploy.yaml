@@ -1,0 +1,36 @@
+bsc:
+  interchainSecurityModule:
+    modules:
+      - relayer: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+        type: trustedRelayerIsm
+      - domains: {}
+        owner: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+        type: defaultFallbackRoutingIsm
+    threshold: 1
+    type: staticAggregationIsm
+  isNft: false
+  owner: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+  proxyAdmin:
+    address: "0xb0f013e0A4f7ae990390f723Bdec32C44b300621"
+    owner: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+  type: native
+  decimals: 18
+zytron:
+  interchainSecurityModule:
+    modules:
+      - relayer: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+        type: trustedRelayerIsm
+      - domains: {}
+        owner: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+        type: defaultFallbackRoutingIsm
+    threshold: 1
+    type: staticAggregationIsm
+  isNft: false
+  owner: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+  proxyAdmin:
+    address: "0xb0f013e0A4f7ae990390f723Bdec32C44b300621"
+    owner: "0xdC75A8D239C304FEeFe60aEE4b2c3f7B52437fF0"
+  type: synthetic
+  symbol: zBNB
+  name: Zytron Wrapped BNB
+  decimals: 18
